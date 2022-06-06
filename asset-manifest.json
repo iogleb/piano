@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/piano/static/css/main.5c089bab.css",
+    "main.js": "/piano/static/js/main.971eb19f.js",
+    "static/media/logo.svg": "/piano/static/media/logo.46f4b2612bc0683cf25fa576ee96b3e2.svg",
+    "static/media/power.svg": "/piano/static/media/power.b503b4c0d7153ee34c9b50d57624cd74.svg",
+    "index.html": "/piano/index.html",
+    "static/media/switchRight.svg": "/piano/static/media/switchRight.2e86ad1503399f35bb95e4b5d066fc3b.svg",
+    "static/media/switchLeft.svg": "/piano/static/media/switchLeft.b9e183126087b6c2e7b0697d605046c1.svg",
+    "static/media/volumeFiveLevel.svg": "/piano/static/media/volumeFiveLevel.290b2f4c68bcfe4ec1a1d3d706dbc284.svg",
+    "static/media/volumeFourLevel.svg": "/piano/static/media/volumeFourLevel.e08d780b87854c99b429386bc5810f98.svg",
+    "static/media/volumeOneLevel.svg": "/piano/static/media/volumeOneLevel.d4b259488b78f484c2fe90b2c4e5d5da.svg",
+    "static/media/volumeThreeLevel.svg": "/piano/static/media/volumeThreeLevel.d09fbb6604959331bc7940eb16a6d458.svg",
+    "static/media/volumeTwoLevel.svg": "/piano/static/media/volumeTwoLevel.d7431981bf6cf3f4ffc5fa6d61a0412f.svg",
+    "main.5c089bab.css.map": "/piano/static/css/main.5c089bab.css.map",
+    "main.971eb19f.js.map": "/piano/static/js/main.971eb19f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c089bab.css",
+    "static/js/main.971eb19f.js"
+  ]
+}
