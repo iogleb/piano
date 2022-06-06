@@ -1,0 +1,26 @@
+.box {
+    display: flex;
+    width: 551px;
+    height: 4px;
+    padding: 13px 0px 0px;
+}
+
+.firstLine {
+    width: 135px;
+    height: 4px;
+    background: #343434;
+    box-shadow: inset 7px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.secondLine {
+    width: 279px;
+    height: 4px;
+    background: #050505;
+}
+
+.thirdLine {
+    width: 135px;
+    height: 4px;
+    background: #343434;
+    box-shadow: inset 7px 1px 4px rgba(0, 0, 0, 0.25);
+}

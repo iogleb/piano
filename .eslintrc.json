@@ -1,0 +1,75 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parser": "@typescript-eslint/parser",
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "@typescript-eslint"
+    ],
+    "rules": {
+        "import/extensions": [
+            "error",
+            "ignorePackages",
+            {
+            "ts": "never",
+            "tsx": "never"
+        }
+        ],
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": [ "warn", {"extensions": [".tsx"]} ],
+        "linebreak-style": 0,
+        "no-param-reassign": ["error", {
+            "props": true,
+            "ignorePropertyModificationsFor": [
+              "state"
+            ]
+        }],
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": ["off"],
+        "jsx-a11y/control-has-associated-label": [ 2, {
+            "labelAttributes": ["label"],
+            "controlComponents": ["CustomComponent"],
+            "ignoreElements": [
+              "audio",
+              "canvas",
+              "embed",
+              "input",
+              "textarea",
+              "tr",
+              "video"
+            ],
+            "ignoreRoles": [
+              "grid",
+              "listbox",
+              "menu",
+              "menubar",
+              "radiogroup",
+              "row",
+              "tablist",
+              "toolbar",
+              "tree",
+              "treegrid"
+            ],
+            "depth": 3
+        }]
+    },
+    "settings": {
+        "import/resolver": {
+        "typescript": {}
+    }
+    }
+}

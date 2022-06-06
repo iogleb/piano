@@ -1,0 +1,36 @@
+.whiteKey {
+    width: 10px;
+    height: 53px;
+    background: #FEFEFE;
+    border: 0.5px solid #181818;
+    border-radius: 0px 0px 2px 2px;
+    cursor: pointer;
+}
+
+.pressedWhiteKey {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 61%, rgba(211, 246, 106, 1) 100%);
+}
+
+.pressedBlackKey {
+    background: linear-gradient(180deg, rgba(76, 76, 76, 1) 61%, rgba(211, 246, 106, 1) 100%);
+    width: 5px;
+    height: 38px;
+    border: 0.8px solid #000000;
+    margin-left: -3px;
+    margin-right: -3px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.blackKey {
+    width: 5px;
+    height: 38px;
+    background: #4C4C4C;
+    border: 0.8px solid #000000;
+    margin-left: -3px;
+    margin-right: -3px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.volumeButtons {
+    margin-left: 6px;
+    margin-right: 8px;
+    display: flex;
+
+    div+div {
+        margin-left: 2px;
+    }
+}
+
+.volumeText {
+    font-size: 1px;
+    position: absolute;
+    top: 30px;
+    left: 74px;
+}
+
+.volumeLevel {
+    position: absolute;
+    top: 32px;
+    left: 71px;
+}
+
+
+.button {
+    width: 2px;
+    height: 7px;
+    background: #C5C5C5;
+    border: 0.2px solid #000000;
+    box-shadow: inset -1px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 0.2px;
+    cursor: pointer;
+    padding: 0 0;
+}
+
+.active {
+    width: 2px;
+    height: 7px;
+    background: #04ff00;
+    border: 0.2px solid #000000;
+    box-shadow: inset -1px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 0.2px;
+    cursor: pointer;
+    padding: 0 0;
+}
